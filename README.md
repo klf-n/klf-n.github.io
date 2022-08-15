@@ -1,2 +1,2 @@
 # klf-n.github.io
-Go to ||https://klfn.site/||
+Go to https://klfn.site/
