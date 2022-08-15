@@ -47,6 +47,7 @@ body {
     color: var(--color-btn);
     margin-right: -7px;
     border: none;
+    cursor: pointer;
 }
 
 .btn__ {
@@ -56,6 +57,7 @@ body {
     background: var(--color-bg);
     color: var(--color-btn);
     border: none;
+    cursor: pointer;
 }
 
 .maintitle {
@@ -125,6 +127,7 @@ body {
     position: relative;
     top: 170px;
     left: 38px;
+    cursor: pointer;
 }
 
 .gh2 {
@@ -142,6 +145,7 @@ body {
     border: none;
     position: relative;
     top: 200px;
+    cursor: pointer;
 }
 
 .mail {
@@ -155,7 +159,7 @@ body {
     border: none;
     position: relative;
     top: 140.5px;
-    left: 75.4px;
+    left: 76px;
 }
 
 .tipper-boi::after,
