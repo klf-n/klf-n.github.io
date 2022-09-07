@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+:root {
+    --color-bg: #3b3b3b;
+    --color-bg2: rgb(160, 160, 160);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pretendard;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background : rgb(27, 27, 27);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 { font-family: "Source Code Pro", monospace; font-weight: 900; }
+
+.logo {
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 35%;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    height: 7%;
+    background: var(--color-bg);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: var(--color-bg2);
+}
+
+::placeholder {
+    color: white;
+}
+
+.search-bar button img{
+    width: 25px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-bg);
+    cursor: pointer;
+}
+
+.by {
+    color: white;
+    margin-top: 2%;
+    text-decoration: none;
+}
+
+.by:hover {
+    color: white;
+    margin-top: 2%;
+    text-decoration: underline;
+}
