@@ -1,8 +1,8 @@
 # 🙋‍♂️ klfn's Site!!
-Go to https://klfn.site/
+Go to https://klfn.dev/
 
 # 🔍 Search Page
-https://klfn.site/search
+https://klfn.dev/search
 
 # ✏ Discord Colored Text Generator
-https://klfn.site/txtgen
+https://klfn.dev/txtgen
