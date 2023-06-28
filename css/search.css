@@ -7,11 +7,15 @@
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Pretendard;
+}
+
+body {
+    background-color: rgb(27, 27, 27);
 }
 
 .container {
@@ -30,6 +34,7 @@ h1 { font-family: "Source Code Pro", monospace; font-weight: 900; }
     color: white;
     position: relative;
     text-align: center;
+    justify-content: center;
     top: 35%;
     pointer-events: none;
     }
@@ -86,7 +91,7 @@ h1 { font-family: "Source Code Pro", monospace; font-weight: 900; }
 
 .by {
     color: white;
-    margin-top: 2%;
+    top: 50px;
     text-decoration: none;
     display: inline-block;
     position: relative;

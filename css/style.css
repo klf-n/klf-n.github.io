@@ -22,7 +22,6 @@ body {
     padding: 0px;
     font-family: KoddiUDOnGothic-Regular;
     font-size: 14px;
-    line-height: 1.5;
     text-align: center;
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -100,7 +99,7 @@ a {
     margin: 0 auto;
     text-align: left;
     position: relative;
-    top: 150px;
+    top: 180px;
 }
 
 .subtitle2 {
